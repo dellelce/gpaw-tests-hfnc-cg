@@ -1,0 +1,288 @@
+   0 . /app/gpaw/software/venv/bin/activate
+   1 gpaw
+   2 cd /tmp
+   3 ls -lt
+   4 python auto.py 08.json 
+   5 export LD_PRELOAD=/usr/lib/libgfortran.so.3.0.0 
+   6 python auto.py 08.json 
+   7 export GPAW=/app/gpaw
+   8 python auto.py 08.json 
+   9 type python
+  10 file /app/gpaw/software/venv/bin/python
+  11 apk add fie
+  12 apk add file
+  13 file /app/gpaw/software/venv/bin/python
+  14 file /app/gpaw/software/venv/bin/python3 
+  15 file /app/httpd/bin/python3
+  16 file /app/httpd/bin/python3.7
+  17 ldd  /app/httpd/bin/python3.7
+  18 unset LD_PRELOAD
+  19 ldd  /app/httpd/bin/python3.7
+  20 export LD_PRELOAD=/usr/lib/dd
+  21 ldd  /app/httpd/bin/python3.7
+  22 export LD_PRELOAD=/usr/lib/libgfortran.so.3.0.0 
+  23 ldd  /app/httpd/bin/python3.7
+  24 ls -lt LD_PRELOAD=/usr/lib/libgfortran.so.3*
+  25 ls -lt /usr/lib/libgfortran.so.3*
+  26 export LD_PRELOAD=/usr/lib/libgfortran.so.3
+  27 ldd  /app/httpd/bin/python3.7
+  28 echo $GPAWDIR
+  29 ls -lt
+  30 vi 3_35912_P4mm_M06-L_1534182016.txt 
+  31 ls -lta
+  32 vi 08.json 
+  33 python auto.y 08.json 
+  34 python auto.py 08.json 
+  35 gpaw-setup 
+  36 ls
+  37 rm *restart *LDA
+  38 ls -lt
+  39 mkdir /app/gpaw/datasets
+  40 python auto.py 08.json 
+  41 export GPAW_SETUP_PATH=/app/gpaw/datasets
+  42 gpaw-setup -f PBE Hf
+  43 gpaw-setup -f PBE C
+  44 gpaw-setup -f PBE N
+  45 python auto.py 08.json 
+  46 ls -lt $GPAW_SETUP_PATH
+  47 export GPAW_SETUP_PATH=/app/gpaw/datasets
+  48 gpaw-setup -f PBE Hf
+  49 ls
+  50 ls -lt $GPAW_SETUP_PATH
+  51 set
+  52 ls -lt /app/gpaw/datasets/
+  53 cd /app/gpaw/datasets/
+  54 gpaw-setup -f PBE Hf
+  55 gpaw-setup -f PBE C
+  56 gpaw-setup -f PBE N
+  57 cd -
+  58 python auto.py 08.json 
+  59 df
+  60 ls -lt
+  61 vi 3_35912_P4mm_M06-L_1534182817.txt
+  62 ls -lta
+  63 ls -lt *json
+  64 vi 08.json 
+  65 cp 08.json 09.json
+  66 vi 09.json 
+  67 python auto.py 09.json 
+  68 python auto.py 09.json ls -lt
+  69 kill %1
+  70 fg
+  71 ls -lt
+  72 vi 3_35912_P4mm_M06-L_1534236870.txt
+  73 ls -lt
+  74 diff -c 08.json 09.json 
+  75 diff  08.json 09.json 
+  76 ls -lt | head
+  77 rm 3_35912_P4mm_M06-L_1534239687.txt
+  78 vi 3_35912_P4mm_M06-L_1534182817.txt
+  79 diff  08.json 09.json 
+  80 cp 09.json 10.json
+  81 vi 10.json 
+  82 python auto.py 10.json 
+  83 ls -lt
+  84 vi 3_35912_P4mm_M06-L_1534239846.txt 
+  85 ls -lt
+  86 grep Free *txt
+  87 vi auto.py 
+  88 vim auto.py 
+  89 apk add vim
+  90 vim auto.py 
+  91 ls -lta
+  92 file core.34 
+  93 ls -lt
+  94 vi auto.py 
+  95 vim auto.py 
+  96 ls -lt
+  97 grep -i eigen *txt
+  98 vi 3_35912_P4mm_M06-L_1534182817.txt
+  99 vi auto.py 
+ 100 vim auto.py 
+ 101 python
+ 102 vi auto.py 
+ 103 vim auto.py 
+ 104 python
+ 105 ls -lt
+ 106 vi 3_35912_P4mm_M06-L_1534239846.txt
+ 107 vi auto.py 
+ 108 vim auto.py 
+ 109 ls -lt  | head
+ 110 python auto.py 10.json 
+ 111 bg
+ 112 ls -lt
+ 113 tail -200f 3_35912_P4mm_M06-L_1534467608.txt 
+ 114 tail -200 -f 3_35912_P4mm_M06-L_1534467608.txt 
+ 115 moe 3_35912_P4mm_M06-L_1534467608.txt 
+ 116 more 3_35912_P4mm_M06-L_1534467608.txt 
+ 117 vim 3_35912_P4mm_M06-L_1534467608.txt 
+ 118 tail -200 -f 3_35912_P4mm_M06-L_1534467608.txt 
+ 119 bg
+ 120 ls -lt
+ 121 more 3_35912_P4mm_M06-L_1534239846.txt
+ 122 ls -lt
+ 123 vi 3_35912_P4mm_M06-L_1534467608.txt
+ 124 ls -lt
+ 125 cat 10.json 
+ 126 w
+ 127 ls -lt
+ 128 vi 10.json 
+ 129 ls -lt *json
+ 130 cp 10.json 11.json
+ 131 vi 11.json 
+ 132 python auto.py 11.json 
+ 133 bg
+ 134 ls -lt
+ 135 tail -200f 3_35912_P4mm_M06-L_1534787359.txt
+ 136 tail -200 -f 3_35912_P4mm_M06-L_1534787359.txt
+ 137 fg
+ 138 jobs
+ 139 fg
+ 140 jobs
+ 141 ls -lt | head
+ 142 vim 3_35912_P4mm_M06-L_1534787359.txt
+ 143 ls -lt
+ 144 cp 11.json 12.json
+ 145 vi 12.json
+ 146 python auto.py 12.json  &
+ 147 tail -200f 3_35912_Pm_M06-L_1534790014.txt
+ 148 tail -200 -f 3_35912_Pm_M06-L_1534790014.txt
+ 149 vi 12.json 
+ 150 vi  3_35912_Pm_M06-L_1534790014.txt
+ 151 cp 12.json 13.json
+ 152 vi 13.json 
+ 153 python auto.py 13.json  &
+ 154 ls -lta
+ 155 git status
+ 156 top
+ 157 ls  -lt | head
+ 158 ls
+ 159 git status
+ 160 ls
+ 161 l
+ 162 ls
+ 163 du
+ 164 ls -lt
+ 165 ls -lt 13.json
+ 166 vi 13.json 
+ 167 ls -lt
+ 168 set
+ 169 ls -lt
+ 170 vi 3_35912_Pm_M06-L_1534797209.txt
+ 171 vi auto.py 
+ 172 apk add vim
+ 173 vim auto.py 
+ 174 apk add git openssh
+ 175 ls -lt
+ 176 git init
+ 177 vi README.md
+ 178 git init
+ 179 git add README.md && git commit -m 'initial readme'
+ 180  git config --global user.email "antouk@dellelce.com"
+ 181 git config --global user.name "Antonio Dell'Elce"
+ 182 git commit -m 'initial readme'
+ 183 ls -lt
+ 184 it status
+ 185 git status
+ 186 echo '*.pyc' >> .gitignore
+ 187 echo '*.restart' >> .gitignore 
+ 188 vim .gitignore 
+ 189 git status
+ 190 git add auto.py 
+ 191 git commit -m 'modified auto.py with custom eigensolver'
+ 192 git status
+ 193 echo '*.PBE' >> .gitignore 
+ 194 git statu
+ 195 git status
+ 196 git add .gitignore 
+ 197 git commit -m 'keep it clean'
+ 198 git status
+ 199 git add -A .
+ 200 git status
+ 201 git commit -m 'initial results'
+ 202 ls -lt
+ 203 git status
+ 204 ls -lta
+ 205 ls -lt *.json
+ 206 vi 13.json 
+ 207 cp 13.json 14.json
+ 208 vi 14.json
+ 209 python auto.py 14.json 
+ 210 bg
+ 211 tail -200f 3_35912_Pm_M06-L_1536925153.txt
+ 212 tail -200 -f 3_35912_Pm_M06-L_1536925153.txt
+ 213 ls -lt
+ 214 jobs
+ 215 cp 14.json 15.json
+ 216 vi 15.json 
+ 217 python auto.py 15.json &
+ 218 top
+ 219 ls -lt
+ 220 ls -lt | head
+ 221 tail -200f 3_31687_Pm_M06-L_1536925764.txt
+ 222 tail -200 -f 3_31687_Pm_M06-L_1536925764.txt
+ 223 ls -lt
+ 224 git status
+ 225 cp 15.json 16.json
+ 226 vi 16.json 
+ 227 python auto.py 16.json &
+ 228 tail -200 -f 3_27462_Pm_M06-L_1536926083.txt
+ 229 ls -lt
+ 230 git status
+ 231 cp 16.json 17.json
+ 232 vi 17.json 
+ 233 python auto.py 17.json &
+ 234 ls -lt
+ 235 git status
+ 236 ls -lt
+ 237 ls -lt | head
+ 238 tail -200f 3_27462_Pm_M06-L_1536926083.txt
+ 239 tail -200 -f 3_27462_Pm_M06-L_1536926083.txt
+ 240 ls -lt | head
+ 241 tail -200f 3_27462_Pm_M06-L_1536926248.txt
+ 242 tail -200 -f 3_27462_Pm_M06-L_1536926248.txt
+ 243 ls -lt
+ 244 vi 3_35912_P4mm_M06-L_1534182016.txt
+ 245 ls -lt
+ 246 vi 3_35912_P4mm_M06-L_1534236870.txt
+ 247 jobs
+ 248 ls -lt
+ 249 cp auto.py auto-dzp.py
+ 250 vi auto-dzp.py 
+ 251 vim auto-dzp.py 
+ 252 ls -lt | head
+ 253 ls -lt | more
+ 254 find . -newer 3_35912_Pm_M06-L_1534797209.txt
+ 255 find . -newer 3_35912_Pm_M06-L_1534797209.txt -name '*txt'
+ 256 vi $(find . -newer 3_35912_Pm_M06-L_1534797209.txt -name '*txt')
+ 257 ls -lt | head
+ 258 python auto-dzp.py 15.json  &
+ 259 gpaw-basis --help
+ 260 gpaw-basis --help | more
+ 261 gpaw-basis -t dzp Hf N C
+ 262 python auto-dzp.py 15.json  &
+ 263 ls -lt | head
+ 264 echo $GPAW_SETUP_PATH
+ 265 python -m trace -t auto-dzp.py 15.json  
+ 266 python -m trace -t auto-dzp.py 15.json  > /tmp/a.txt
+ 267 vi /tmp/a.txt 
+ 268 vim /tmp/a.txt 
+ 269 find /app -name basis_data.py
+ 270 vim /app/gpaw/software/venv/lib/python3.7/site-packages/gpaw/basis_data.py
+ 271 vim /tmp/a.txt 
+ 272 vim /app/gpaw/software/venv/lib/python3.7/site-packages/gpaw/basis_data.py
+ 273 vim /tmp/a.txt 
+ 274 python
+ 275 ls -lt
+ 276 ls -lt *basis
+ 277 cp *basis /app/gpaw/datasets/
+ 278 python auto-dzp.py 15.json  &
+ 279 tail -200 -f 3_31687_Pm_M06-L_1536928134.txt
+ 280 more  3_31687_Pm_M06-L_1536928134.txt
+ 281 git statu
+ 282 git status
+ 283 git add auto-dzp.py
+ 284 git commit -m 'use dzp for initial LCAO step'
+ 285 history
+ 286 git status
+ 287 history > history.txt
