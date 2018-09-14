@@ -1,0 +1,4 @@
+core*
+*.pyc
+*.restart
+*.PBE
