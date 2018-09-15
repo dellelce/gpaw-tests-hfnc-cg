@@ -288,9 +288,11 @@ class execution(object):
                )
   else:
    _calc = GPAW(
+                mode='fd',
                 xc=_fnl,
                 txt=self.filename(force_id),
                 nbands=self.nbands,
+                basis='dzp', #used only in the initial LCAO step
                 mixer=self.mixer(),
                 eigensolver=self.eigensolver,
                 maxiter=self.max_iterations,
